@@ -1,0 +1,11 @@
+name: TCPlayerCheck
+author: Pijok
+version: 1.0
+main: pl.Pijok.TCPlayerCheck.Main
+commands:
+  confess:
+    usage: /confess
+    aliases: [mamcheaty]
+  check:
+    usage: /check
+    aliases: [sprawdz]
