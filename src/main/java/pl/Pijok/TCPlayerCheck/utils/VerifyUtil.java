@@ -45,15 +45,15 @@ public class VerifyUtil {
         //String pl.Pijok.TCPlayerCheck.command = "tempban %player% 7d %result%";
         String command;
         if(result.equalsIgnoreCase("cheater")){
-            command = "ban " + player.getName() + " 5d Cheaty";
+            command = "ban " + player.getName() + " 7d Cheaty";
             Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), command);
         }
         else if(result.equalsIgnoreCase("left")){
-            command = "ban " + player.getName() + " 7d Wyjscie podczas sprawdzania";
+            command = "ban " + player.getName() + " 30d Wyjscie podczas sprawdzania";
             Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), command);
         }
         else if(result.equalsIgnoreCase("nocoop")){
-            command = "ban " + player.getName() + " 7d Brak wspolpracy";
+            command = "ban " + player.getName() + " 14d Brak wspolpracy";
             Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), command);
         }
         else if(result.equalsIgnoreCase("clear")){

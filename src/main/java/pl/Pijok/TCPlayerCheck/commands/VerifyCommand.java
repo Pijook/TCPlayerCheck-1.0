@@ -17,7 +17,7 @@ public class VerifyCommand implements CommandExecutor {
 
         Player player = (Player) sender;
 
-        if(sender.hasPermission("prison.verify")){
+        if(sender.hasPermission("playercheck.verify")){
 
             if(args.length == 0){
                 ChatUtil.sendMessage(player, ChatUtil.fixColor("&7Uzycie: /" + label + " <nick>"));
